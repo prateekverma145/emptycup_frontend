@@ -22,7 +22,7 @@ export default function DesignerList({ showShortlisted }) {
     };
     fetchData();
   }, []);
-if(designers.length === 0){
+if(!loading &&designers.length === 0){
   return <div className=" w-full h-[50px] font-chivo text-[20px] font-bold flex justify-center">No designers found</div>;
 }
   return (

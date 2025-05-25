@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "tailwindcss";
+@theme{
+  --font-chivo: 'Chivo', sans-serif;
+  --color-lightyellow:#FFFCF2;
+  --color-lightgray:#716966;
+  --color-linegray:#D0D0D0;
+  --color-darkgray:#3A312E;
+  --color-maroon:#8D4337;
+
+;
+}
